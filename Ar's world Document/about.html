@@ -1,0 +1,162 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>About</title>
+    <link rel="icon" href="logo New.png">
+</head>
+<body>
+
+<nav class="Navigation">
+    
+    <div class="Brand-name">
+        Ar's World
+
+    </div>
+<div class="navlogo">
+    
+</div>
+
+    <div class="navbar-links">
+    <ul>
+        <a href="#" class="toggle-button">
+            <span class="bar"></span>
+            <span class="bar"></span>
+            <span class="bar"></span>
+           
+    
+        </a>
+     
+        <li><a href="html css para.html">Home</a></li>
+        <li><a href="about.html">About</a></li>
+        <li><a href="Contact.html">Contact</a></li>
+
+
+        
+
+    </ul>
+    </div>
+     
+ </nav>
+</div>
+
+<div class="about-me">
+    Hello I am Abdurrazazck and I am junior Developer. I know HTML,CSS AND PYTHON.
+I have intrest in AI Tecnology, Programing a new Website, Creating an App. My personal projects are 
+HTML form, A Chick game Made from scratch. A python Project which Can generate Random Password and No one can Guess this Password.
+</div>
+
+
+
+
+
+<style>
+    * {
+    box-sizing: border-box;
+}
+
+body {
+    margin: 0;
+    padding: 0;
+}
+
+    
+.Navigation{
+    padding-top:0;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #333;
+    color: white;
+}
+
+.brand-name{
+    
+    font-size: 1.5rem;
+    margin: .5rem;
+    
+    
+}
+
+.navbar-links ul{
+    margin: 0;
+    padding: 0;
+    display: flex;
+}
+
+
+
+
+.navbar-links li{
+    list-style: none;
+}
+
+.navbar-links li a{
+    text-decoration: none;
+    color: white;
+    padding: 1rem;
+    display: block;
+
+}
+
+
+.navbar-links li:hover {
+    display: inline-block;
+    position: relative;
+    
+
+}
+.navbar-links li::before{
+    content: "";
+    position:absolute;
+    bottom: 0;
+    width: 0;
+    height: 2px;
+    background-color:rgb(118, 227, 231);
+    transition: width 0.25s ease-out;
+
+
+}
+
+.navbar-links li:hover::before {
+    width: 100%;
+}
+
+.toggle-button{
+    position: absolute;
+    top: .75rem;
+    right: 1rem;
+    display: none;
+    flex-direction: column;    
+    justify-content: space-between;
+    width: 30px;
+    height: 21px;
+}
+.about-me:hover{
+    
+}
+.about-me{
+
+    color: black;
+    font-size: 200%;
+    font-weight: 600;
+    font-family: SodoSans,Helvetica Neue,Helvetica,Arial,sans-serif;  
+    margin-top: 20px; 
+    margin-right:150px;
+    margin-bottom: 50px; 
+    padding-left: 20px;
+    padding-right: 20px;
+    margin-left: 0;
+    line-height: 1.5;
+    letter-spacing: -.01em;
+
+}
+
+
+</style>
+
+    
+</body>
+</html>

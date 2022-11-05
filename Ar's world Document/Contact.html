@@ -1,0 +1,148 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contact</title>
+    <link rel="icon" href="logo New.png">
+</head>
+<body>
+    <nav class="Navigation">
+
+    
+        <div class="Brand-name">
+            Ar's World
+    
+        </div>
+    <div class="navlogo">
+        
+    </div>
+        <a href="#" class="toggle-button">
+            <span class="bar"></span>
+            <span class="bar"></span>
+            <span class="bar"></span>
+           
+    
+        </a>
+        <div class="navbar-links">
+        <ul>
+       
+         
+            <li><a href="html css para.html">Home</a></li>
+            <li><a href="about.html">About</a></li>
+            <li><a href="Contact.html">Contact</a></li>
+    
+        </ul>
+        </div>
+         
+     </nav>
+    </div>
+
+
+<div class="contact">
+   <img src="Profile.png" alt="Profile">
+   
+   
+</div>
+
+
+
+<style>
+    * {
+        box-sizing: border-box;
+    }
+    
+    body {
+        margin: 0;
+        padding: 0;
+        
+
+    }
+
+    
+    .Navigation{
+        padding-top:0;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        background-color: #333;
+        color: white;
+    }
+    
+    .brand-name{
+        font-size: 1.5rem;
+         margin: .5rem;    
+        
+    }
+    
+    .navbar-links ul{
+        margin: 0;
+        padding: 0;
+        display: flex;
+    }
+    
+    
+    
+    
+    .navbar-links li{
+        list-style: none;
+    }
+    
+    .navbar-links li a{
+        text-decoration: none;
+        color: white;
+        padding: 1rem;
+        display: block;
+    
+    }
+    
+    
+    .navbar-links li:hover {
+        display: inline-block;
+        position: relative;
+        
+    
+    }
+    .navbar-links li::before{
+        content: "";
+        position:absolute;
+        bottom: 0;
+        width: 0;
+        height: 2px;
+        background-color:rgb(118, 227, 231);
+        transition: width 0.25s ease-out;
+    
+    
+    }
+    
+    .navbar-links li:hover::before {
+        width: 100%;
+    }
+    
+    .toggle-button{
+        position: absolute;
+        top: .75rem;
+        right: 1rem;
+        display: none;
+        flex-direction: column;    
+        justify-content: space-between;
+        width: 30px;
+        height: 21px;
+    }
+    .contact{
+        display: flex;
+        justify-content: center;
+        margin-top: 300px;
+        border-style: solid;
+        margin: 250px ;
+
+    }
+
+
+
+
+
+</style>   
+</body>
+</html>
